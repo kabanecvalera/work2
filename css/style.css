@@ -1,0 +1,72 @@
+body{
+    background-image: url(../img/bg.jpg);
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 500px;
+}
+
+h1{
+    font-size: 36px;
+    font-family: Arial;
+    text-transform: uppercase;
+    padding: 21px 7px 0;
+    
+}
+
+.foto{
+    margin: -5px 0 3px 150px;    
+}
+
+.text{
+    font: 14px Arial;
+    color: #1f1f1f;
+    padding-bottom: 5px; 
+}
+
+.content{
+    border-top: 1px solid #C8C9CB;
+    
+    padding: 19px 0 0 5px;
+}
+
+.motivation{
+    font: 14px Myriad Pro;
+    padding: 11px 0 5px 31px;
+    
+}
+
+.contacts-tel{
+    border-top: 1px solid #C8C9CB;
+    padding-top: 17px;
+}
+
+.text-phone{
+    font: 14px Arial;
+    color: #1f1f1f;
+    padding: 9px 0px 2px 38px;     
+}
+
+.contacts-social{
+    margin-top: 10px;
+}
+
+.social{
+    font: 14px Myriad Pro;
+    color: #0055D2;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 36px;
+    line-height: 58px;
+}
+
+.footer{
+    font: 14px Myriad Pro;
+    border-top: 1px solid #C8C9CB;
+    padding-top: 18px;
+}
+
+.footer-text{
+    padding: 8px 0 0 38px;
+}
