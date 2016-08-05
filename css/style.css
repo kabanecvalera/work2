@@ -1,3 +1,10 @@
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body{
     background-image: url(../img/bg.jpg);
 }
@@ -7,66 +14,80 @@ body{
     width: 500px;
 }
 
+/*header*/
 h1{
     font-size: 36px;
-    font-family: Arial;
+    font-family: 'MyriadPro',Arial;
     text-transform: uppercase;
     padding: 21px 7px 0;
-    
 }
 
-.foto{
-    margin: -5px 0 3px 150px;    
-}
+.foto{margin: -5px 0 3px 150px;}
 
 .text{
-    font: 14px Arial;
+    font: 14px 'MyriadPro',Arial;
     color: #1f1f1f;
-    padding-bottom: 5px; 
+    margin: 13px 0 20px 3px;
 }
 
+/*body*/
 .content{
     border-top: 1px solid #C8C9CB;
-    
     padding: 19px 0 0 5px;
 }
 
+.content-subheading{
+    font: 16px 'MyriadPro',Arial;
+    font-weight: bold;
+    letter-spacing: .3px;
+    margin-left: -2px;
+}
+
 .motivation{
-    font: 14px Myriad Pro;
-    padding: 11px 0 5px 31px;
-    
+    font: 13px Arial;
+    font-weight: bold;
+    color: #1f1f1f;
+    line-height: 18px;
+    letter-spacing: -0.4px;
+    padding: 10px 0 5px 30px;
 }
 
 .contacts-tel{
     border-top: 1px solid #C8C9CB;
-    padding-top: 17px;
+    padding-top: 19px;
+}
+
+.contacts-tel-subheading,
+.contacts-social-subheading,
+.footer-subheading{
+    font: 16px 'MyriadPro',Arial;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-left: 1px;
 }
 
 .text-phone{
-    font: 14px Arial;
+    font: 14px 'MyriadPro',Arial;
     color: #1f1f1f;
-    padding: 9px 0px 2px 38px;     
+    padding: 7px 0px 2px 38px;     
 }
 
-.contacts-social{
-    margin-top: 10px;
-}
+.contacts-social{margin-top: 10px;}
 
 .social{
-    font: 14px Myriad Pro;
+    font: 13px 'MyriadPro', Arial;
     color: #0055D2;
     font-style: italic;
     font-weight: bold;
-    padding-left: 36px;
     line-height: 58px;
+    margin-left: 36px;
 }
 
+/*footer*/
 .footer{
-    font: 14px Myriad Pro;
+    font: 14px 'MyriadPro';
     border-top: 1px solid #C8C9CB;
     padding-top: 18px;
 }
 
-.footer-text{
-    padding: 8px 0 0 38px;
-}
+.footer-text{padding: 8px 0 0 38px;}
